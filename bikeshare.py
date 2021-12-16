@@ -33,7 +33,7 @@ def get_filters():
          city = input("Invalid response, please try again.\n")
 
     # TO DO: get user input for month (all, january, february, ... , june)
-    month = input("What month are you interested in? For example \'january\', \'february\', or \'all\' for every month\n").lower()
+    month = input("What month would you like to look at? For example \'january\', \'february\', or \'all\' for every month\n").lower()
     while month not in month_list:
         month = input("Invalid response, please try again.\n")
 
